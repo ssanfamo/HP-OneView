@@ -1,0 +1,10 @@
+{
+    "OneViewUrl": "https://prdsdcapl30188.linux.adsint.biz",
+    "OneViewUsername": "SVC_OneViewAPI",
+    "OneViewPassword": "your_OneView_password_here",
+    "OneViewDomain": "emea.adsint.biz",
+    "ITSMUrl": "https://adidasaspentest.service-now.com",
+    "ITSMUsername": "SVC_OneViewAPI_AP",
+    "ITSMPwd": "your_ServiceNow_password_here",
+    "AssignmentGroup": "YourAssignmentGroup"
+}
