@@ -63,7 +63,7 @@ function Get-OneViewApiToken {
 
 # Function to create Base64 authorization for ServiceNow
 function Get-ITSMAuthHeader {
-    $auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("$itsmUsername:$itsmPassword"))
+    $auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("${itsmUsername}:${itsmPassword}"))
     return "Basic $auth"
 }
 
@@ -100,6 +100,8 @@ function New-ASPENTicket {
     $headers = @{
         "Authorization" = (Get-ITSMAuthHeader)
         "Content-Type" = "application/json"
+        "Accept" = "application/json"
+
     }
     $body = @{
         "caller_id" = "hws_automation";

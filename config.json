@@ -6,5 +6,8 @@
     "ITSMUrl": "https://adidasaspentest.service-now.com",
     "ITSMUsername": "SVC_OneViewAPI_AP",
     "ITSMPwd": "your_ServiceNow_password_here",
-    "AssignmentGroup": "YourAssignmentGroup"
+    "AssignmentGroup": "YourAssignmentGroup",
+    "ShortDescription": "Critical Alert",
+    "alert": "resource-alerts"
+
 }

@@ -1,0 +1,11 @@
+{
+    "OneViewUrl": "https://your-oneview-url.com",
+    "OneViewUsername": "your_oneview_username",
+    "OneViewPassword": "your_oneview_password",
+    "OneViewDomain": "your_oneview_domain",
+    "ServiceNowUrl": "https://your-servicenow-url.com",
+    "ServiceNowUsername": "your_servicenow_username",
+    "ServiceNowPassword": "your_servicenow_password",
+    "AssignmentGroup": "your_assignment_group"
+  }
+  
